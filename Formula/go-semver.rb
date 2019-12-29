@@ -2,16 +2,16 @@
 class GoSemver < Formula
   desc "Get the contributor stats summary from all repos of any given organization"
   homepage ""
-  version "0.0.2-rc.0"
+  version "0.0.2-rc.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/pinterb/go-semver/releases/download/0.0.2-rc.0/go-semver_0.0.2-rc.0_darwin_amd64.tar.gz"
-    sha256 "383149b3812972cac39f208fd3eb8aee662084e93da5d85e27d4146df9a307cb"
+    url "https://github.com/pinterb/go-semver/releases/download/0.0.2-rc.1/go-semver_0.0.2-rc.1_darwin_amd64.tar.gz"
+    sha256 "96682486b64e29da7b3c20ffee68fe185c81b5e37a88e6e56d1ecba59d622138"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/pinterb/go-semver/releases/download/0.0.2-rc.0/go-semver_0.0.2-rc.0_linux_amd64.tar.gz"
-      sha256 "229488e9fc5285d806df0e18ec2d43def1167c22af994405a5dd2fbe6075909a"
+      url "https://github.com/pinterb/go-semver/releases/download/0.0.2-rc.1/go-semver_0.0.2-rc.1_linux_amd64.tar.gz"
+      sha256 "9f1cfe87baf09fbb0174c4e643896f95ddf6c4ac400322a5f0dc6c431df0e097"
     end
   end
 
