@@ -2,16 +2,16 @@
 class GoSemver < Formula
   desc "A tool to manage semantic versioning of software"
   homepage ""
-  version "0.0.2-rc.2"
+  version "0.0.2-rc.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/pinterb/go-semver/releases/download/0.0.2-rc.2/go-semver_darwin_amd64.tar.gz"
-    sha256 "eb613ce4a559832c6c46b9a29a5e2535bf6a1d323fac5c4f4f5c1aa3f3dcb4eb"
+    url "https://github.com/pinterb/go-semver/releases/download/0.0.2-rc.3/go-semver_darwin_amd64.tar.gz"
+    sha256 "438b13b86ab81cb8d35fcda2a077b59d2c76ce40b23acd4d48ac3bcb53ecd8d8"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/pinterb/go-semver/releases/download/0.0.2-rc.2/go-semver_linux_amd64.tar.gz"
-      sha256 "0741f1a4ea688c265556a633b97e49d5a4dd99e5717084e0bff0f974511c899f"
+      url "https://github.com/pinterb/go-semver/releases/download/0.0.2-rc.3/go-semver_linux_amd64.tar.gz"
+      sha256 "1ae7356ef3fa16afdad6156f902d751cd5521c0fabc0268dfa413ee29e6ee1d9"
     end
   end
 
